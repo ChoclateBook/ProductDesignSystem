@@ -1,6 +1,18 @@
-.test {
-    background-color: green;
-    font-size: 12px;
+button {
+    font-family: Segoe, Helvetica, Arial, sans-serif;
+    border: 0;
+    border-radius: 3px;
+    text-tranfsorm: uppercase;
+}
+
+.btn-primary {
+    background-color: #c20;
     color: #fff;
-      
+     
+}
+
+.btn-regular {
+    height: 30px;
+    padding: 10px 20px; 
+    font-size: 10px;
 }
