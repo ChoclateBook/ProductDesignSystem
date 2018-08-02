@@ -5,14 +5,37 @@ button {
     text-tranfsorm: uppercase;
 }
 
-.btn-primary {
-    background-color: #c20;
-    color: #fff;
-     
-}
-
 .btn-regular {
     height: 30px;
+    min-width: 70px;
     padding: 10px 20px; 
     font-size: 10px;
+}
+
+.btn-small {
+    height: 20px;
+    min-width: 50px;
+    padding: 5px 10px; 
+    font-size: 10px;
+}
+
+.btn-primary {
+    background-color: #c20;
+    color: #fff;    
+}
+
+.btn-secondary {
+    background-color: #384142; /* Gray80 */
+    color: #fff;    
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #596669;  /* Gray70 */
+    border: 1px solid #BDC5C7; /* Gray40 */
+}
+
+.btn-functional {
+    background-color: #D3DADB; /* Gray30 */
+    color: #596669; /* Gray70 */
 }
