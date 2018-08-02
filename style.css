@@ -30,7 +30,7 @@ button {
 }
 
 .btn-outline {
-    background-color: green;
+    background-color: blue;
     color: #596669;  /* Gray70 */
     border: 1px solid #BDC5C7; /* Gray40 */
 }
